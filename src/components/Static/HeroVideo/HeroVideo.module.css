@@ -1,0 +1,76 @@
+
+.hero{
+    width: 100%;
+    height: 100%;
+}
+.heroDots{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.videOverlay{
+    background: rgba(0, 0, 0, 0.2); /* Black see-through */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.videoPlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+video{
+    /* pointer-events: none; */
+    width: 100%;
+    height: 100%;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:100;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.connect .insta{
+    margin: 0px 12px;
+    padding: 10px;
+    border-radius: 50%;
+    border: #ffffff solid 1px;
+    transition: all 0.3s ease-in-out;
+}
+.connect .insta:hover{
+    cursor: pointer;
+    background: #3395AB;
+}
+.insta img{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typewriter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
